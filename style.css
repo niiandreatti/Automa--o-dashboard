@@ -1,0 +1,53 @@
+%%writefile style.css
+body {
+    background-color: #f0f2f6;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+}
+
+.stFileUploader {
+    border: 2px dashed #4CAF50;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.stTitle {
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+.stHeader {
+    color: #4CAF50;
+}
+
+hr {
+    border: 1px solid #4CAF50;
+}
+
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4, .stMarkdown h5, .stMarkdown h6 {
+    color: #4CAF50;
+}
+
+.stPlotlyChart .js-plotly-plot {
+    background-color: #1e2130;
+    color: #e5e5e5;
+}
